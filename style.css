@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.phones {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  background-color: #f4f4f4;
+  width: 100%;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.sales{
+  text-align: center;
+  color:#333;
+}
+
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 30%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  flex: 1; 
+  min-height: 200px; 
+}
+.product-card img {
+  max-width: 80%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-card h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.product-card p {
+  margin: 10px 0;
+}
+
+.product-card button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: auto; 
+}
+
+.product-card button:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  width: 100%;
+  bottom: 0;
+  font-size: 0.5em;
+}
+
+.spcl-product-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 100%;
+  height: auto; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding-bottom: 50px;
+}
+
+.spcl-product-card img {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.spcl-product-card h1{
+  text-align: center;
+  color: #333;
+}
+
+.spcl-product-card h2 {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.spcl-product-card p {
+  margin: 10px 0;
+}
+
+.spcl-product-card .price {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.spcl-product-card .old-price {
+  text-decoration: line-through;
+  color: red;
+  margin-right: 10px;
+}
+
+.spcl-product-card button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.spcl-product-card button:hover {
+  background-color: #555;
+}
